@@ -1,0 +1,11 @@
+editor: main.o text.o
+        gcc -o editor main.o text.o
+main.o: main.c def.h
+        gcc -c main.c
+text.o: text.c com.h
+        gcc -c text.c
+#原来安装一个程序，只是把它移到一个可以
+可以执行的文件夹里，或者是系统文件夹
+install:editor
+        mv editor /usr/local
+

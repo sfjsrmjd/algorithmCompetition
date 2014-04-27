@@ -1,0 +1,41 @@
+#include<stdio.h>
+#define INF 100000
+#define MAXN INF/2
+int a[MAN];
+int
+main (void)
+{
+  int x;
+  int count = 0;
+  int max = -INF;
+  int min = INF;
+  int sum = 0;
+  int na = 0;
+  while (scanf ("%d", &x) == 1)
+    {
+      if (x > INF || x < -INF)
+	{
+	  printf
+	    ("this program don't deal larget than %d number, this program will exit",
+	     INF);
+	  return 1;
+	}
+      a[na] = x;
+      na++;
+    }
+  int i, j;
+  int distance = INF;
+  for (i = 0; i < na; i++)
+    {
+      for (j = i + 1; j < na; j++)
+	{
+	  int current_distance = abs (a[i] - a[j]);
+	  if (current_distance < distance)
+	    {
+	      distance = current_distance;
+	    }
+	}
+    }
+
+return 0;
+}

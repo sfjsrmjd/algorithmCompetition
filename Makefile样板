@@ -1,0 +1,19 @@
+CC=gcc
+CFLAGS=-Wall
+#src := $(shell ls *.c) /*把当前目录下所有c源代码赋给变量src*/
+SOURCES=$(shell ls *.c)
+#objs := $(patsubst %.c,%.o,$(src)) /*调用makefile 中的函数patsubst, 用.o文件代替.c文件*/
+OBJECTS=$(SOURCES:.c=.o)
+EXECUTABLE=hello
+
+all: $(SOURCES) $(EXECUTABLE)
+
+test: $(objs)
+        gcc -o $@ $^
+
+%.o:%.c
+        gcc -c -o $@ $<
+
+clean:
+        rm -rf *o hello
+

@@ -1,0 +1,12 @@
+#include<stdio.h>
+int
+main (void)
+{
+  double i;
+  int j;
+  for (i = 0,j=0; i != 10,j<102; i += 0.1,j++) {
+    printf ("%d: ", j);
+    printf ("%.1lf\n", i);
+}
+  return 0;
+}

@@ -1,0 +1,11 @@
+src := $(shell ls *.c) /*把当前目录下所有c源代码赋给变量src*/
+objs := $(patsubst %.c,%.o,$(src)) /*调用makefile 中的函数patsubst, 用.o文件代替.c文件*/
+
+test: $(objs)
+	gcc -o $@ $^
+
+%.o:%.c
+	gcc -c -o $@ $<
+
+clean:
+	rm -f test *.o
