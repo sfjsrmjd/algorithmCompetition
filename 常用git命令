@@ -1,0 +1,22 @@
+一般的工作步骤：第一下载远端的文件，或者叫github上的文件，
+就是与远端，github上的文件同步。
+这里要用到的命令有：
+git pull origin master
+git pull=git fetch+git merge
+现阶段我只需要git pull
+(
+git fetch origin master
+git log -p master origin/master
+git merge origin/master
+)
+第二步，修改，
+第三步，添加，并，注释，
+git add ./
+git add --all ./ #被删除的文件也会被记录。
+第四步，提交到远程仓库。
+git remote add origin address
+git push origin master
+
+有用的git命令
+git status 无法正常现实中文的 git config --global core.quotepath false 把core.quotepath设置为false，就不会对0x80以上的字符进行quote
+
