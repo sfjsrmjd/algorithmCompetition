@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn"><head><script src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/gpt.js" type="text/javascript" async=""></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>vim使用大全[转] - 小鸡炖蘑菇 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/blog-common.css">
+<link id="MainCss" type="text/css" rel="stylesheet" href="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/style.css">
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/hlz789456123/rss">
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/hlz789456123/rsd.xml">
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/hlz789456123/wlwmanifest.xml">
+<script src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/jquery.js" type="text/javascript"></script>  
+<script type="text/javascript">var currentBlogApp = 'hlz789456123', cb_enable_mathjax=false;</script>
+<script src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/blog-common.js" type="text/javascript"></script>
+<script src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/pubads_impl_39.js" type="text/javascript" async=""></script><script src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/osd.js" type="text/javascript"></script></head>
+<body>
+<a name="top"></a>
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/hlz789456123/"><img id="blogLogo" src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/logo.gif" alt="返回主页"></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/hlz789456123/">中央教条区</a></h1>
+<h2>光耀糖果盒</h2>
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+	<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+	<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/hlz789456123/">首页</a></li>
+	<li><a href="http://news.cnblogs.com/">新闻</a></li>
+	<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+	<li><a id="MyLinks1_ContactLink" accesskey="9" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%b0%8f%e9%b8%a1%e7%82%96%e8%98%91%e8%8f%87">联系</a></li>
+	<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+	<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/hlz789456123/rss">订阅</a>
+	<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/hlz789456123/rss"><img src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/xml.gif" alt="订阅"></a></li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			
+<!--done-->
+随笔- 26&nbsp;
+文章- 0&nbsp;
+评论- 52&nbsp;
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class="postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417193.html">vim使用大全[转]</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body">vi/vim 基本使用方法<br>本文介绍了vi (vim)的基本使用方法，但对于普通用户来说基本上够了！<br><br>vi
+编辑器是所有Unix及Linux系统下标准的编辑器，它的强大不逊色于任何最新的文本编辑器，这里只是简单地介绍一下它的用法和一小部分指令。由于对
+Unix及Linux系统的任何版本，vi编辑器是完全相同的，因此您可以在其他任何介绍vi的地方进一步了解它。Vi也是Linux中最基本的文本编辑
+器，学会它后，您将在Linux的世界里畅行无阻。<br><br>1、vi的基本概念<br>　　基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下：<br><br>1) 命令行模式command mode）<br><br>　　控制屏幕光标的移动，字符、字或行的删除，移动复制某区段及进入Insert mode下，或者到 last line mode。<br><br>2) 插入模式（Insert mode）<br><br>　　只有在Insert mode下，才可以做文字输入，按「ESC」键可回到命令行模式。<br><br>3) 底行模式（last line mode）<br><br>　　将文件保存或退出vi，也可以设置编辑环境，如寻找字符串、列出行号……等。<br><br>不过一般我们在使用时把vi简化成两个模式，就是将底行模式（last line mode）也算入命令行模式command mode）。<br><br>2、vi的基本操作<br>a) 进入vi<br><br>　　在系统提示符号输入vi及文件名称后，就进入vi全屏幕编辑画面：<br><br>　　　$ vi myfile<br><br><br>　
+　不过有一点要特别注意，就是您进入vi之后，是处于「命令行模式（command mode）」，您要切换到「插入模式（Insert 
+mode）」才能够输入文字。初次使用vi的人都会想先用上下左右键移动光标，结果电脑一直哔哔叫，把自己气个半死，所以进入vi后，先不要乱动，转换到
+「插入模式（Insert mode）」再说吧！<br><br>b) 切换至插入模式（Insert mode）编辑文件<br><br>　　在「命令行模式（command mode）」下按一下字母「i」就可以进入「插入模式（Insert mode）」，这时候你就可以开始输入文字了。<br><br>c) Insert 的切换<br><br>　　您目前处于「插入模式（Insert mode）」，您就只能一直输入文字，如果您发现输错了字！想用光标键往回移动，将该字删除，就要先按一下「ESC」键转到「命令行模式（command mode）」再删除文字。<br><br>d) 退出vi及保存文件<br><br>　　在「命令行模式（command mode）」下，按一下「：」冒号键进入「Last line mode」，例如：<br><br>: w filename （输入 「w filename」将文章以指定的文件名filename保存）<br><br>: wq (输入「wq」，存盘并退出vi)<br><br>: q! (输入q!， 不存盘强制退出vi)<br><br><br>3、命令行模式（command mode）功能键<br>1）. 插入模式<br><br>　　按「i」切换进入插入模式「insert mode」，按“i”进入插入模式后是从光标当前位置开始输入文件；<br><br>　　按「a」进入插入模式后，是从目前光标所在位置的下一个位置开始输入文字；<br><br>　　按「o」进入插入模式后，是插入新的一行，从行首开始输入文字。<br><br>2）. 从插入模式切换为命令行模式<br><br>　　按「ESC」键。<br><br>3）. 移动光标<br><br>　　vi可以直接用键盘上的光标来上下左右移动，但正规的vi是用小写英文字母「h」、「j」、「k」、「l」，分别控制光标左、下、上、右移一格。<br><br>　　按「ctrl」+「b」：屏幕往“后”移动一页。<br><br>　　按「ctrl」+「f」：屏幕往“前”移动一页。<br><br>　　按「ctrl」+「u」：屏幕往“后”移动半页。<br><br>　　按「ctrl」+「d」：屏幕往“前”移动半页。<br><br>　　按数字「0」：移到文章的开头。<br><br>　　按「G」：移动到文章的最后。<br><br>　　按「$」：移动到光标所在行的“行尾”。<br><br>　　按「^」：移动到光标所在行的“行首”<br><br>　　按「w」：光标跳到下个字的开头<br><br>　　按「e」：光标跳到下个字的字尾<br><br>　　按「b」：光标回到上个字的开头<br><br>　　按「#l」：光标移到该行的第#个位置，如：5l,56l。<br><br>4）. 删除文字<br><br>　　「x」：每按一次，删除光标所在位置的“后面”一个字符。<br><br>　　「#x」：例如，「6x」表示删除光标所在位置的“后面”6个字符。<br><br>　　「X」：大写的X，每按一次，删除光标所在位置的“前面”一个字符。<br><br>　　「#X」：例如，「20X」表示删除光标所在位置的“前面”20个字符。<br><br>　　「dd」：删除光标所在行。<br><br>　　「#dd」：从光标所在行开始删除#行<br><br>5）. 复制<br><br>　　「yw」：将光标所在之处到字尾的字符复制到缓冲区中。<br><br>　　「#yw」：复制#个字到缓冲区<br><br>　　「yy」：复制光标所在行到缓冲区。<br><br>　　「#yy」：例如，「6yy」表示拷贝从光标所在的该行“往下数”6行文字。<br><br>　　「p」：将缓冲区内的字符贴到光标所在位置。注意：所有与“y”有关的复制命令都必须与“p”配合才能完成复制与粘贴功能。<br><br>6）. 替换<br><br>　　「r」：替换光标所在处的字符。<br><br>　　「R」：替换光标所到之处的字符，直到按下「ESC」键为止。<br><br>7）. 回复上一次操作<br><br>　　「u」：如果您误执行一个命令，可以马上按下「u」，回到上一个操作。按多次“u”可以执行多次回复。<br><br>8）. 更改<br><br>　　「cw」：更改光标所在处的字到字尾处<br><br>　　「c#w」：例如，「c3w」表示更改3个字<br><br>9）. 跳至指定的行<br><br>　　「ctrl」+「g」列出光标所在行的行号。<br><br>　　「#G」：例如，「15G」，表示移动光标至文章的第15行行首。<br><br>4、Last line mode下命令简介<br>　　在使用「last line mode」之前，请记住先按「ESC」键确定您已经处于「command mode」下后，再按「：」冒号即可进入「last line mode」。<br><br>A) 列出行号<br><br>　「set nu」：输入「set nu」后，会在文件中的每一行前面列出行号。<br><br>B) 跳到文件中的某一行<br><br>　「#」：「#」号表示一个数字，在冒号后输入一个数字，再按回车键就会跳到该行了，如输入数字15，再回车，就会跳到文章的第15行。<br><br>C) 查找字符<br><br>　「/关键字」：先按「/」键，再输入您想寻找的字符，如果第一次找的关键字不是您想要的，可以一直按「n」会往后寻找到您要的关键字为止。<br><br>　「?关键字」：先按「?」键，再输入您想寻找的字符，如果第一次找的关键字不是您想要的，可以一直按「n」会往前寻找到您要的关键字为止。<br><br>D) 保存文件<br><br>　「w」：在冒号输入字母「w」就可以将文件保存起来。<br><br>E) 离开vi<br><br>　「q」：按「q」就是退出，如果无法离开vi，可以在「q」后跟一个「!」强制离开vi。<br><br>　「qw」：一般建议离开时，搭配「w」一起使用，这样在退出的时候还可以保存文件。<br><br>5、vi命令列表<br>1、下表列出命令模式下的一些键的功能：<br><br>h<br>左移光标一个字符<br><br>l<br>右移光标一个字符<br><br>k<br>光标上移一行<br><br>j<br>光标下移一行<br><br>^<br>光标移动至行首<br><br>0<br>数字“0”，光标移至文章的开头<br><br>G<br>光标移至文章的最后<br><br>$<br>光标移动至行尾<br><br>Ctrl+f<br>向前翻屏<br><br>Ctrl+b<br>向后翻屏<br><br>Ctrl+d<br>向前翻半屏<br><br>Ctrl+u<br>向后翻半屏<br><br>i<br>在光标位置前插入字符<br><br>a<br>在光标所在位置的后一个字符开始增加<br><br>o<br>插入新的一行，从行首开始输入<br><br>ESC<br>从输入状态退至命令状态<br><br>x<br>删除光标后面的字符<br><br>#x<br>删除光标后的＃个字符<br><br>X<br>(大写X)，删除光标前面的字符<br><br>#X<br>删除光标前面的#个字符<br><br>dd<br>删除光标所在的行<br><br>#dd<br>删除从光标所在行数的#行<br><br>yw<br>复制光标所在位置的一个字<br><br>#yw<br>复制光标所在位置的#个字<br><br>yy<br>复制光标所在位置的一行<br><br>#yy<br>复制从光标所在行数的#行<br><br>p<br>粘贴<br><br>u<br>取消操作<br><br>cw<br>更改光标所在位置的一个字<br><br>#cw<br>更改光标所在位置的#个字<br><br><br>2、下表列出行命令模式下的一些指令<br>w filename<br>储存正在编辑的文件为filename<br><br>wq filename<br>储存正在编辑的文件为filename，并退出vi<br><br>q!<br>放弃所有修改，退出vi<br><br>set nu<br>显示行号<br><br>/或?<br>查找，在/后输入要查找的内容<br><br>n<br>与/或?一起使用，如果查找的内容不是想要找的关键字，按n或向后（与/联用）或向前（与?联用）继续查找，直到找到为止。<br><br><br>对于第一次用vi，有几点注意要提醒一下：<br>1、用vi打开文件，是处于「命令行模式（command </div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="blog_post_info"><div id="BlogPostCategory"></div>
+<div id="EntryTag"></div>
+<div id="green_channel">
+绿色通道：
+<a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(cb_entryId,cb_blogId,1);green_channel_success(this,'谢谢推荐！');">好文要顶</a>
+<a id="green_channel_follow" onclick="c_follow();" href="javascript:void(0);">关注我</a>
+<a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);">收藏该文</a><a id="green_channel_contact" href="http://space.cnblogs.com/msg/send/%e5%b0%8f%e9%b8%a1%e7%82%96%e8%98%91%e8%8f%87" target="_blank">与我联系</a>
+<a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/icon_weibo_24.png" alt=""></a>
+</div>
+<div id="digg_block">
+<div id="author_profile">
+<div id="author_profile_info" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/hlz789456123/" target="_blank"><img src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/sample_face.gif" class="author_avatar" alt=""></a>
+<div id="author_profile_detail" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/hlz789456123/">小鸡炖蘑菇</a><br>
+<a href="http://home.cnblogs.com/u/hlz789456123/followees">关注 - 0</a><br>
+<a href="http://home.cnblogs.com/u/hlz789456123/followers">粉丝 - 3</a>
+</div>
+</div>
+<div class="clear"></div>
+<div id="author_profile_honor"></div>
+<div id="author_profile_follow">
+<a href="javascript:void(0);" onclick="c_follow();return false;">+加关注</a>
+</div>
+</div>
+<div id="div_digg">										
+	<div class="diggit" onclick="votePost(cb_entryId,'Digg')"> 
+		<span class="diggnum" id="digg_count">4</span>
+	</div>
+	<div class="buryit" onclick="votePost(cb_entryId,'Bury')"> 
+		<span class="burynum" id="bury_count">0</span>
+	</div>
+	<div class="clear"></div>	
+	<div class="diggword" id="digg_tips">
+    (请您对文章做出评价)
+    </div>	
+</div>
+</div></div>
+<div class="clear"></div>
+<div id="post_next_prev"><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417171.html" class="p_n_p_prefix">« </a> 上一篇：<a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417171.html" title="发布于2009-03-19 22:19">Windows中，在Vim标签页中打开文件[转]</a><br><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417205.html" class="p_n_p_prefix">» </a> 下一篇：<a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417205.html" title="发布于2009-03-19 22:46">80端口被占用</a><br></div>
+</div>
+
+
+		</div>
+		<div class="postDesc">posted @ <span id="post-date">2009-03-19 22:37</span> <a href="http://www.cnblogs.com/hlz789456123/">小鸡炖蘑菇</a> 阅读(<span id="post_view_count">42357</span>) 评论(<span id="post_comment_count">19</span>)  <a href="http://i.cnblogs.com/EditPosts.aspx?postid=1417193" rel="nofollow">编辑</a> <a href="#" onclick="AddToWz(1417193);return false;">收藏</a></div>
+	</div>
+	<script type="text/javascript">var allowComments=true,isLogined=false,cb_blogId=40460,cb_entryId=1417193,cb_blogApp=currentBlogApp,cb_blogUserGuid='6347420b-63cf-dd11-9e4d-001cf0cd104b',cb_entryCreatedDate='2009/3/19 22:37:00';loadViewCount(cb_entryId);</script>
+	
+</div><!--end: topics 文章、评论容器-->
+<a name="!comments"></a><div id="blog-comments-placeholder"><div id="comments_pager_top"></div>
+<!--done-->
+<br>
+<div class="feedback_area_title">发表评论</div>
+<div class="feedbackNoItems"></div>
+	
+
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#1481949" class="layer">#1楼</a><a name="1481949" id="comment_anchor_1481949"></a> <span class="comment_date">2009-03-20 08:43</span> | <a id="a_comment_author_1481949" href="http://www.cnblogs.com/shiyangxt/" target="_blank">施杨</a> <a href="http://space.cnblogs.com/msg/send/%e6%96%bd%e6%9d%a8" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_1481949" class="blog_comment_body">写的挺详细，但是我现在用不着这个帅帅的编辑器，不过顶了</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(1481949,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(1481949,'Bury',this)">反对(0)</a></div><span id="comment_1481949_avatar" style="display:none;">http://pic.cnitblog.com/face/u34037.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#1486694" class="layer">#2楼</a><a name="1486694" id="comment_anchor_1486694"></a> <span class="comment_date">2009-03-25 10:05</span> | <a id="a_comment_author_1486694" href="http://www.cnblogs.com/amboyna/" target="_blank">玉米丰收</a> <a href="http://space.cnblogs.com/msg/send/%e7%8e%89%e7%b1%b3%e4%b8%b0%e6%94%b6" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_1486694" class="blog_comment_body">……一直在边用边吐血的人飘过</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(1486694,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(1486694,'Bury',this)">反对(0)</a></div><span id="comment_1486694_avatar" style="display:none;">http://pic.cnitblog.com/face/u22165.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#1833440" class="layer">#3楼</a><a name="1833440" id="comment_anchor_1833440"></a> <span class="comment_date">2010-05-26 16:07</span> | <a id="a_comment_author_1833440" href="http://home.cnblogs.com/u/104894/" target="_blank">Swordone</a> <a href="http://space.cnblogs.com/msg/send/Swordone" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_1833440" class="blog_comment_body">先收藏，这个还得边用边学！~</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(1833440,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(1833440,'Bury',this)">反对(0)</a></div><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#1849652" class="layer">#4楼</a><a name="1849652" id="comment_anchor_1849652"></a> <span class="comment_date">2010-06-17 14:12</span> | <a id="a_comment_author_1849652" href="http://www.cnblogs.com/vebest/" target="_blank">vebest</a> <a href="http://space.cnblogs.com/msg/send/vebest" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_1849652" class="blog_comment_body">很好,收藏了先...</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(1849652,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(1849652,'Bury',this)">反对(0)</a></div><span id="comment_1849652_avatar" style="display:none;">http://pic.cnitblog.com/face/u59864.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#1885058" class="layer">#5楼</a><a name="1885058" id="comment_anchor_1885058"></a> <span class="comment_date">2010-08-02 10:08</span> | <a id="a_comment_author_1885058" href="http://www.cnblogs.com/jeffreyli/" target="_blank">JeffreyLi</a> <a href="http://space.cnblogs.com/msg/send/JeffreyLi" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_1885058" class="blog_comment_body">这么多命令记得住吗，Linux下面还要记很多其他东西。<br>俺只记的住几个基本的。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(1885058,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(1885058,'Bury',this)">反对(0)</a></div><span id="comment_1885058_avatar" style="display:none;">http://pic.cnitblog.com/face/u116828.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053788" class="layer">#6楼</a><a name="2053788" id="comment_anchor_2053788"></a> <span class="comment_date">2011-03-24 13:50</span> | <a id="a_comment_author_2053788" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053788" class="blog_comment_body">我再添加一些 呵呵<br>1、(motion)<br>　　fx 向后 移动到搜索字母上，x 可以是任意一个字母<br>　　tx 向后 移到搜索字母的左边 (这真的很有用)<br>　　Fx 向前 移到搜索字母上  <br>    Tx 向前 移到搜索字母的左边<br>    ; 重复上面四种命令    ,也是重复命令 不过方向取反<br>    . 重复上一个操作      <br>    以上命令都是在本行移动 <br>    ,. 当前行   ,%当前文件<br>    gd    to definition of the current word <br><br>　　w：上一个词。　　b：下一个词。(以nonword的特殊字符作为word的边界，如.,-等<br>    W  上一个词      B   下一个词   （以空格作为word的边界）又称长单词<br>    e: 下个词的最后一个字母   ge 上个词的最后一个字母<br>　　0：移动光标到当前行首。<br>    gm 移动到行正中<br>    $：移动光标到行尾。<br>                         2$ 下一行行尾<br>　　^：移动光标到当前行的第一个字母位置。<br>  　)   ( 移动光标到上/下一个句子。<br>    {   } pre/next paragraph<br>    [{  ]} begin/end of block<br>    [[  ][  代码块的开头和结尾 假设{和}位于第一列的情况下成立<br>    [(  ])   括号范围内前后移动<br>    gD 跳转到局部变量的定义处<br>    <br>    +  -   下一行的开始  上一行的开始（非空）<br>    % matching parenthesis<br><br>　　5、在整个文件里面有效移动光标<br>　　gg：到文件首   G：到文件尾<br>　　numG：移动光标到指定的行(num)。(比如 10G 就是到第 10 行)<br>　　H：移动光标到屏幕上面　　M：移动光标到屏幕中间　　L：移动光标到屏幕下面  当前屏幕的操作<br>    nH   光标到当前屏幕的第n行<br>    nL    光标到当前屏幕的倒数第n行<br>    zt scroll to top         <br>    zz   scroll to middle  有用  把当前编辑行置于屏幕中间  <br>    zb   scroll to bottom <br>    ctr+B/b      ctr+F/f pre/next page<br>    ctr+U/u      ctr+D/d pre/next half page<br>    ctr+e     ctr+y   上/下滚一行<br>　　*：读取光标处的单词，并且移动光标到它再次出现的地方。<br>　　#：读取光标处的单词，并且移动光标到它上次出现的地方。<br>    g*  它不完全匹配光标所在处的单词,而是匹配包含该单词的所有字符串<br>　　g#  它不完全匹配光标所在处的单词,而是匹配包含该单词的所有字符串<br><br>    /text：从当前光标处开始搜索字符串 text，并且到达 text 出现的地方。必须使用回车来开始这个搜索命令。如果想重复上次的搜索的话，按 n<br>　　?text：和上面类似，但是是反方向。<br>    /\&lt;text\&gt; 搜索完整的text单词<br>    /ab\{3,5} 对b匹配3-5次<br>              \{0,1}匹配0或1次 跟\=一样<br>              \{0,} 匹配0次或多次  跟\*一样<br>              \{1,} 匹配1次或多次  跟\+一样<br>              \{3}   匹配3次<br>    /ab\{-1,3} 将会匹配abbb中的ab  意思是尽可能的避免重复<br>    /a.\{-}b 其中{-}匹配前面的项一次或0次 尽可能地少 一般这个模式本身只可能匹配到0次<br>              因此  这个命令 只会匹配到axbxb中的axb<br>    /a.*b    则会尽可能多的匹配  因而对于axbxb 会匹配整个的axbxb<br>    /the\nword  匹配以the结束而且下一行以word开始的行<br>    \_s 匹配空格或断行<br>    /the\_sword  the 与word 之间有空格或断行<br>    /\d\u{3}\d\{3}  匹配一个数字 三个大写字母 单个数字 <br>    <br>    /joe/s-2  所查找之处往前两个字符<br>       <br>    搜索完按n重复上次查找  N逆向上次查找<br>     3n 向下搜索第三个<br>　　<br>    ma　`a  mark/jump to a     'a  转到标记所在的行头(行头)<br>　　`.：到你上次编辑文件的修改点。这个命令很有用，而且你不用自己去标记它<br>    '.  到上次修改的行<br>    ``  在上次编辑的地方与本次的地方来回跳转（仅限使用命令的跳转）  <br>    `0 上次编辑的地方  <br>    ctr+O ctr+I 往前或往后跳 编辑的地方  <br>    <br>    :s/old/new    将当前行中old替换为new 只替换一次<br>    :s/old/new/n   search and replace n times<br>    :s/old/new/g   将当前行中的old替换为new，全部替换<br>    :.,$ s/old/new/g  将当前行至文件末尾中的old替换为new，全部替换<br>    :.,$ s/old/new    将当前行中至文件末尾中的old替换为new，每行至替换一次<br>    :1,$ s/old/new   或  :% s/old/new    将文件所有行中的old替换为new，每行只替换一次<br>    :1,$ s/old/new/g 或  :% s/old/new/g  将文件中的所有行的old替换为new，全部替换<br>     %是目前编辑的文章   #是前一次编辑的文章<br>    :?^chapter?-1,/^chapter/+2 s=grey=gray=g  将上个chapter与下一个chapter之间的所有的grey替换为gray，用=替换/ 来避免过多的/<br>    :g/foobar/s/bar/baz/g     搜索foobar 然后替换为foorbaz  不会影响到jailbars<br>    :g/\(foo\)\(bar\)/s/\2/\1baz/g    <br>    特殊的序列    &amp; 所有查找时匹配到的东西 <br>                  \[1-9] 1到9号用\(\)括起来的东西<br>                  \u    下一个字符被变成大写<br>                  \U    以后 所有的字符都 变成大写  知道遇到\e<br>                  \l    下一个字符变成小写<br>                  \L     以后的字符都变成小写<br>                  <br>    <br>    :.,.+4 从当前行到下面第四行<br>    :`t,`b 从上一个标记t到下一个标记b<br>      ~ 改变当前字母的大小写类型<br>    ggguG : 将当前编辑文件内容全部转换成小写<br>    g~m 切换大小写 动作m跨越的行<br>    guw 变小写<br>    gUw 变大写<br>    xp  当前字母和后一个字母的位置进行替换<br>    ddp 两行互换位置<br>    </div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053788,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053788,'Bury',this)">反对(0)</a></div><span id="comment_2053788_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053796" class="layer">#7楼</a><a name="2053796" id="comment_anchor_2053796"></a> <span class="comment_date">2011-03-24 13:53</span> | <a id="a_comment_author_2053796" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053796" class="blog_comment_body">2.高效的输入<br>　　1、使用关键词自动完成<br>　　输入一个长词的一部分，按住 Ctrl，再按 N或n)如果 VIM  会一直循环它找到的匹配的字符串。<br>　　2、聪明的进入插入模式<br>　　i：在当前字符的左边插入 　　I：在当前行首（第一个非空字符）插入<br>    gI 在第一列插入文本<br>　　a：在当前字符的右边插入 　　A：在当前行尾插入<br>　　o：在当前行下面插入一个新行 　　O：在当前行上面插入一个新行<br>    R   ENTER REPLACE MODE  替换<br>    S   替换掉光标所在行 再进入编辑模式<br>    :&gt;  本行缩进  <br>    :&lt;  取消本行缩进<br>    &lt;&lt;　&gt;&gt; 左移或右移当前段落一个移动宽度（shiftwidth）<br>    :&gt;n 缩进连本行在内的n行<br>    :&lt;n 取消连本行在内的n行的缩进<br>　
+　c{motion}：删除 motion 
+命令跨过的字符，并且进入插入模式。比如：c$，这将会删除从光标位置到行尾的字符并且进入插入模式。ct!，这会删除从光标位置到下一个叹号(但不包
+括)，然后进入插入模式。被删除的字符被存在了剪贴板里面，并且可以再粘贴出来。<br>　　d{motion}：和上面差不多，但是不进入插入模式。<br>　　3、有效的移动大段的文本<br>    模式:<br>　　v：按字符选择。经常使用的模式，所以亲自尝试一下它。<br>　　V：按行选择。这在RGB(0x20,0x6a,0x4f)多行的文本的时候特别有用。<br>　　CTR+v：按块选择。采用xbeta的_Vimrc文件时<br>    ctr+q 按块选择。<br>　　4、在可视选择模式下剪切和拷贝<br>　　一旦你高亮了选区，你或许想进行一些操作：<br>　　d：剪贴选择的内容到剪贴板。<br>　　y：拷贝选择的内容到剪贴板。<br>　　c：剪贴选择的内容到剪贴板并且进入插入模式。<br>　　在非可视选择模式下剪切和拷贝<br>　　如果你很清楚的知道你想拷贝或者剪切什么，那你根本就不需要进入可视选择模式。这样也会节省时间：<br>　　d{motion}：剪切 motion 命令跨过的字符到剪贴板。比如，dw 会剪切一个词而 dfS 会将从当前光标到下一个 S 之间的字符剪切至剪贴板。<br>　　y{motion}：和上面类似，不过是拷贝。<br>    y2fa 表示拷贝从当前光标到光标后面的第二个a 字符之间的内容。<br>    :12，y 表示拷贝第12 行到光标所在行之间的内容。<br>    :，24y 表示拷贝光标所在行到第24 行之间的内容。<br>　　c{motion}：和 d{motion} 类似，不过最后进入插入模式。 cw 改变一个词 <br>    cc change line            d$  删除从现在光标所在位置  (包括)至行尾<br>    cw change word          cw  与 dw 由区别  前者不去最后的一个空格 后者去<br>    rc 将光标下的字符替换为c<br>    R replace beginning at cursor<br>　　dd：剪切当前行。            yw  复制的内容包括word之后的空白字符<br>    ndd   delete n lines <br>    ndw   delete n words <br>    dw    delete a word <br>　　yy拷贝当前行。<br>    Y 拷贝当前行。<br>    Vyp 复制一行<br>　　cc 剪切当前行并且进入插入模式。<br>　　D 代表 d$ 删除到行尾的内容<br>　　C 代表 d$ 修改到到行尾的内容。<br>　　x 代表dl 删除当前光标下的字符  <br>    X 代表dh 删除当前光标左边的字符<br>    daw  删除一个单词  (包括其后的空格<br>    cis  删除一个句子<br>    cas  删除一个句子  (包括后面的空白<br>    diw  删除光标上的单词<br>    daw  删除光标上的单词  (包括空白字符<br>     用d或x删除时 同时被删除的内容被保存起来<br>　　s 代表cl 修改当前光标下的字符  <br>    S 代表cc 修改当行  <br>    J   jion two lines<br>    r   替换之后 不进入插入模式<br>    gum gUm 小写/大写 动作m跨越的文本<br>    &lt;m  &gt;m  左移/右移 动作m跨越的行<br>    n&lt;&lt; n&gt;&gt;  将n行左移或右移一个缩进位<br>　　5、粘贴<br>　　 p      粘贴到光标后<br>     大写P  粘贴到光标前<br>　　6、使用多重剪贴板<br>　　很多编辑器都只提供了一个剪贴板。VIM 有很多。剪贴板在 VIM 里面被称为寄存器(Registers)。你可以列出当前定义的所有寄存器名和它们的内容，命令为“:reg”。最好使用小写字母来作为寄存器的名称，因为大写的有些被 VIM 占用了。<br>　　使用寄存器的命令为双引号 “。<br>　
+　比如：我们要拷贝当前行到寄存器 k。你应该按 “kyy。(你也可以使用 V”ky。为什么这样也可以呢?)现在当前行应该已经存在了寄存器 k 
+里面直到你又拷贝了一些东西进入寄存器 k。现在你可以使用命令 “kp 来粘贴寄存器 k 里面的内容到你想要的位置。<br>　　7、避免重复<br>      . (小数点符号)， 需要在normal下去执行 将会重复上一个修改命令。<br>      u  撤销上次操作<br>      U 撤销一行的操作 不管几次<br>       ctr+R 恢复撤销<br>       CTR+Y 重做</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053796,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053796,'Bury',this)">反对(0)</a></div><span id="comment_2053796_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053798" class="layer">#8楼</a><a name="2053798" id="comment_anchor_2053798"></a> <span class="comment_date">2011-03-24 13:55</span> | <a id="a_comment_author_2053798" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053798" class="blog_comment_body"><a href="#2053796" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053796);">@</a>BI<br>8、使用数字<br>　　3j 将会把光标向下移动三行。<br>　　10dd 将会删除十行。<br>　　y3″ 将会拷贝从当前光标到第三个出现的引号之间的内容到剪贴板。<br>:w  save(:wq save and quit)  ZZ保存后退出<br>:q  quit(:q! quit anyway)<br>:only 关闭除当前窗口外的其它窗口<br>:qall  关闭所有的窗口 如果有为保存的文件 则自动跳到为保存的文件<br>:wall  全部保存 <br>:e x   edit file x<br>:e x   放弃修改重新载入当前的文件x<br>:n   new window<br>:h    vim help<br>:xx  jump to line #xx<br>ctr+N   CTR+P    auto-complete next/prev keyword  插入模式下的单词自动完成<br>ctr+x+l 自动补全整行内容<br>ctr+x+f    auto-complete file name 搜索可匹配的文件名并完成<br>缩写：<br>  :abbr sprt system.out.println<br>  在编辑状态下输入sprt后再输入其他非字母符号会自动扩展<br>ctr+W   在多个窗口间切换<br>:set nu 或 :set number 显示行号<br>:set nonu 或 :set nonumber  消除行号<br>:set ruler 设置vim在右下角显示光标的位置<br>:set incsearch 自动匹配<br>:set hlsearch 搜索时自动匹配<br>:set nohlsearch<br>:set ignorecase 忽略大小写<br>:set wrapscan  设置循环搜索<br>:set textwidth=30  设置自动换行 并将 最大长度设为30<br>:set background=dark<br>:set background=light<br>:set patchmode=.org   编辑data.txt 时 保存原始文件为data.txt.org<br>:reg   查看剪切板中的内容<br>gf 打开光标处的文件名<br>pwd 获取当前工作目录<br>多窗口:<br>:vsp  :sp   vertically/horizontally split 纵向或横向分屏<br>:ctrl+w-w   切换窗口<br>:close    关闭窗口 可以阻止关闭最后一个VIM窗口<br>:only     关闭除了当前窗口之外的所有的窗口<br>ctrl+w++   增加当前窗口的高度<br>:diffs    split and diff  分屏比较<br>ctr+W p   to last accessed window  移动到上个屏幕<br>ctr+W w  to next window   <br>:12   				go to 12th line<br>:r 						file  append file into vim/vi<br>:f 						file  change current filename to file<br>:w 						save changes and stay in file<br>:q 						quit and ignore changes <br>:q!       		force quit and ignore changes `<br>:wq    				quit and save<br>:nw file      write file to the nth lines <br>:e filename   edit new file <br>:r filename   insert the new file to the position of the current cursor <br>:0r filename  将文件filename的内容插入到文件的开头<br>:.,$w filename 将当前正在编辑的文件中的当前行至最后一行写到新的文件filename中<br>:.,$w &gt;&gt;filename 将当前正在编辑的文件中的当前行至最后一行写到追加到已有的文件filename中<br>z  redraw the screen<br>zz put the cursor to middle <br>zt 光标到所在行到屏幕顶端<br>zb  光标所在行到屏幕下端<br>qm 录制宏到寄存器m<br>@m 执行寄存器中的宏<br>一些设置<br>:set go=<br>     隐藏菜单<br>:set shiftwidth=4  一次移动4个单位  用于&lt;和&gt;命令 移动的宽度<br>          5&gt;&gt; 光标后5行向右移动一个tab<br>          :12,24&gt; 将12至24行的数据都向右移动一个tab<br>          :12,24&gt;&gt;  将12至24行的数据都向右移动两个tab<br>          &lt;% or &gt;% 来将({[等括号之间的文本都左移一个tab单位<br>shiftwidth（缩进的空格数,设置自动缩进时 会自动缩进4空格<br>tabstop（制表符的宽度）tab的宽度<br>expandtab（是否在缩进和遇到Tab键时使用空格替代；使用noexpandtab取消设置）；<br>softtabstop（软制表符宽度，设置为非零数值后使用Tab键和Backspace时光标移动的格数等于该数值，<br>             但实际插入的字符仍受tabstop和expandtab控制）；<br>autoindent（自动缩进，即每行的缩进值与上一行相等；使用noautoindent取消设置）；<br>shiftwidth=4 tabstop=4：很多Windows出身的程序员会习惯这样的设置，让缩进等于制表符宽度。<br>/* vim: set tabstop=4 shiftwidth=4 expandtab: */<br>模式行有好几种形式。本文只介绍上面的这种形式（其它形式类似，请自行参考“:help<br>modeline”）：行首的“/*”和尾部的“*/”告诉C 编译器这是一行注释，不是代码的一部分；而<br>Vim可通过后面的“vim:”识别出模式行的开始（必须出现在行首或前面有一个空白字符）；后面则是<br>“set”和空格间隔开的一串Vim选项；“:”表示模式行结束。<br><br>:set softtabstop=4  使得在第一列按下一个制表符 光标就会向前移动4个空格 再次按下时<br>                     会增加一个制表符  总共8列<br>:set expandtab  只使用空格  制表符会被相应宽度的空格代替<br>:colo evening   背景变黑<br>语法高亮：<br>   :syntax keyword xType int long char  将int long char定义为组xType<br>   :highlight link xType Type  将xType与Type联系起来 使得他们有相同的语法高亮<br>定义自己的映射键<br>在normal下: 用:map &lt;F2&gt;  ggVG<br>在insert下: 用:imap &lt;F2&gt;  ggVG</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053798,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053798,'Bury',this)">反对(0)</a></div><span id="comment_2053798_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053801" class="layer">#9楼</a><a name="2053801" id="comment_anchor_2053801"></a> <span class="comment_date">2011-03-24 13:57</span> | <a id="a_comment_author_2053801" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053801" class="blog_comment_body"><a href="#2053796" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053796);">@</a>BI<br>组合命令：<br>:%s/ /^M/g 将所有的空格替换为换行<br>ggVG 全选<br>:%s/$/!/g  所有行末尾加！<br>:%s/old/\r&amp;/gc 表示将old替换为前面加换行在加old <br>:s/fred/&lt;c-r&gt;a/g : 将fred 替换为寄存器a 里的内容，&lt;c-r&gt;为按下Ctrl与r，<br>                    然后输入a 后，寄存器a 的内容会出现在命令行<br>:s/fred/&lt;c-r&gt;asome_text&lt;c-r&gt;s/g<br>:s/fred/\=@a/g : 与第一条的作用相同，但是更优雅一些，<br>                           因为不会在命令行显示寄存器的内容<br>:%/为../&amp;\r   将”为**“ 替换为 ”为**“加回车     <br>编辑命令时:&lt;left&gt;代表向左一个字符<br>           &lt;right&gt;代表向左一个字符<br>           &lt;shift+left&gt;代表向左一个单词<br>           &lt;shift+right&gt;代表向右一个单词<br>           home 至命令行首 <br>           end  至命令行尾<br>           ctrl+w 删除光标前的整个单词<br>           ctrl+u 删除光标之前的所有内容<br>           tab键自动补齐所输入的较长的单词或者文件路径           <br>1. 去掉所有的行尾空格：“:%s/\s\+$//”。<br>     “%”表示在整个文件范围内进行替换，<br>     “\s”表示空白字符（空格和制表符），<br>     “\+”对前面的字符匹配一次或多次（越多越好），<br>     “$”匹配行尾（使用“\$”表示单纯的“$”字符）；<br>     被替换的内容为空；由于一行最多只需替换一次，不需要特殊标志。这个还是比较简单的。<br>2.去掉所有的空白行：“:%s/\(\s*\n\)\+/\r/”。<br>       这回多了“\(”、“\)”、“\n”、“\r”和“*”。<br>       “*”代表对前面的字符（此处为“\s”）匹配零次或多次（越多越好；使用“\*”表示单纯的“*”字符），<br>       “\n”代表换行符，“\r”代表回车符，“\(”和“\)”对表达式进行分组，使其被视作一个不可分割的整体。因此，这个表达式的完整意义是，把连续的换行符<br>（包含换行符前面可能有的连续空白字符）替换成为一个单个的换行符。唯一很特殊的地方是，<br>在模式中使用的是“\n”，而被替换的内容中却不能使用“\n”，而只能使用“\r”。原因是<br>历史造成的，详情如果有兴趣的话可以查看“:help NL-used-for-Nul”。<br>3. 去掉所有的“//”注释：“:%s!\s*//.*!!”。首先可以注意到，这儿分隔符改用了“!”，原<br>因是在模式或字符串部分使用了“/”字符，不换用其他分隔符的话就得在每次使用“/”字符<br>本身时写成“\/”，上面的命令得写成“:%s/\s*\/\/.*//”，可读性较低。命令本身倒是相<br>当简单，用过正则表达式的人估计都知道“.”匹配表示除换行符之外的任何字符吧。<br>4.去掉所有的“/* */”注释：“:%s!\s*/\*\_.\{-}\*/\s*! !g”。这个略有点复杂了，用到<br>了几个不太常用的Vim正则表达式特性。“\_.”匹配包含换行在内的所有字符；“\{-}”表示<br>前一个字符可出现零次或多次，但在整个正则表达式可以匹配成功的前提下，匹配的字符数越<br>少越好；标志“g”表示一行里可以匹配和替换多次。替换的结果是个空格的目的是保证像<br>“int/* space not necessary around comments */main()”这样的表达式在替换之后<br>仍然是合法的。<br>5、:g/./,/^$/join  <br>          :g/./ 一个全局命令, 查找那些至少有一个字符的行.<br>           ,/^$/ 指定一个范围, 从当前行开始(非空行)直到一个空行.<br>           join ":join"命令把指定范围内的行连为一行.<br>6.对多个文件进行改动 例如把所有的c文件中的x_cnt变量替换为x_counter变量<br>  先将所要修改的文件放到参数列表上  :args *.c<br>  再执行命令  :argdo %s/\&lt;x_cnt\&gt;/x_counter/ge |update<br>        解释：:argdo 命令已另一个命令为参数   <br>        g是对每行中的所有的x_cnt进行替换 <br>        e是避免某些 文件中没有一个x_cnt可供替换 那就不进行下面的替换的情况<br>        | 用来分隔两个命令 后面的update 命令会在文件有所改变时保存 没改变的则不进行操作<br>  类似于argdo  命令:windo 会对所有的窗口都执行同样的操作<br>          :buffer 则是对所有的缓冲区进行操作 <br>          :ls 可以查看缓冲区情况<br>          :args 显示目前打开的文件<br>                 %  当前编辑文件<br>                 #  上次编辑文件<br>                 :previous 编辑上一个文件<br>                 :next   编辑下一个文件<br>                 :wprevious  保存并编辑上一个文件<br>                 :last  编辑最后一个文件<br>                 :first 编辑第一个文件<br>          :lcd%:p:h 更改到当前文件所在的目录<br>                lcd是仅仅改变当前窗口的工作路径 %表示当前文件的文件名 <br>                加上:p扩展为全名(带路径) 加上 :h 析出路径</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053801,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053801,'Bury',this)">反对(0)</a></div><span id="comment_2053801_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053804" class="layer">#10楼</a><a name="2053804" id="comment_anchor_2053804"></a> <span class="comment_date">2011-03-24 14:00</span> | <a id="a_comment_author_2053804" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053804" class="blog_comment_body"><a href="#2053801" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053801);">@</a>BI<br>8.  :g/^\s*$/d  删除所有空行        <br>恢复机制：<br>   正在编辑一个文件help.txt时死机 则下次启用vim时用 :vim -r help.txt 来恢复 <br>   然后先存储在另一个文件:write help.txt.recovered  再比较这两个文件<br>   如果正在编辑的文件没有名字 则用 :vim -r "" 来恢复所有可能的文件<br>  :echo 3+8*9  会计算出值<br>一些组合命令：<br>:g/^/m 0 依此将每行移动到第0行的下一行 实现倒序功能<br>:g/^/+1 d 删除偶数行<br>:s/\n\n\@!//    \n\n\@!是查找后面不跟回车的回车 然后替换为空格<br>:g/./,/^$/j     /./标记非空行  /^$/查找后面的行直到出现空行 然后对二者进行合并<br>:v/ccc\|ddd/s/aaa/bbb/g  将aaa替换成bbb 条件是行中有ccc但不能有ddd<br>:g/ccc/if getline('.')!~'ddd'|s/aaa/bbb/g  首先标记匹配的ccc行 然后执行if命令 getline函数<br>                                         则取得当前行 然后判断是否匹配ddd <br>                                         如果不匹配（!~的求值为true）则执行替换<br>:g/^/,+2 d|,+6 m -1   每十行删除前后三行<br>:g/^/,+6 m -1|+1,+3 d  每十行删除前后三行<br>:g/if/+1,/elsif\|else/-1 t $  将if与elsif或else之间的内容 复制到末尾<br>:g/^/put_ : 双倍行宽 (pu = put)<br>:g/^/m0 : 颠倒文件 (m = move)<br>:'a,'bg/^/m'b : 颠倒选中的 a 到 b<br>:g/^/t. : 重复行<br>:g/fred/t$ : 拷贝行从fred 到结尾<br>:g/stage/t'a : 拷贝行从stage 到 marker a（a 为标记的位置）<br>隔行替换<br>:g/^/ if line('.')%2|s/^/zz /<br>查找标记a 与b 间所有包含"somestr"的行，并全部复制到第一个包含"otherstr"的行后<br>:'a,'bg/somestr/co/otherstr/       其中 co(py) or mo(ve)<br>用文件中的内容替换字符串，-d 表示删除上面的一行<br>:g/^MARK$/r tmp.ex | -d<br>:g/&lt;pattern&gt;/z#.5 : 带有上下文一并显示<br>:g/&lt;pattern&gt;/z#.5|echo "==========" : 优雅地显示<br>将g//和普通模式下的命令结合起来<br>:g/|/norm 2f|r* : 将第二个|替换为*号<br>全局命令和替换命令联姻 (强大的编辑能力)<br>:'a,'bg/fred/s/joe/susan/gic : 可以使用反向引用来匹配<br>:g/fred/,/joe/s/fred/joe/gic : 非行模式<br>:/fred/;/joe/-2,/sid/+3s/sally/alley/gIC  先找fred，然后找joe<br>:g/^/exe ".w ".line(".").".txt" <br>           为每一行生成一个文件,文件名从1.txt 开始，依次为1.txt,2.txt,3,txt<br>xy\{2,}表示x后接至少两个y 相当于xyy\+或xyyy*<br>"ayy 将当前行复制到a缓冲区   "的作用是注释，以免当成插入<br>"ap  粘贴刚才复制的行    <br>缓冲区在wim中的术语是registers   具体可以看:h registers<br>d,c,s,x,y等指令改变或删除的内容都是放在registers中的<br>:reg 命令可以查看缓冲区的内容  然后可以根据前面的标记加p复制需要的内容<br>冒号命令支持tab键补全功能<br>. 重复上一次的编辑动作（移动游标和冒号命令除外）、<br>:marks 可以得到所有的标签列表<br>vim+ 档案名 可以打开档案 并且游标会落在最后一行的行尾 <br>vim+n 档案名 游标会落在第n行的行首<br>vim+/string 档案名 进入档案后游标会进入第一个要找到的string上 按n可以继续寻找<br>多当编辑有两种形式：<br>argument list 进入vim前所用的参数就是多档<br>buffer list 进入vim后另外再开其它的档<br>:n 编辑下一个档案<br>:2n 编辑下二个档案 <br>:N 编辑前一个档案   适用于argument list<br>:sp(:vsp) filename  分割出一个窗口并打开文件filename<br>:rew 回到首文件<br>:e 档案名 在不离开vim的情形下再开其它档案 只要要编辑的档案在目前的目录下即可<br>:e# 或CTR+^ 编辑前一个档案 用于两档互相编辑时相当好用  #表示前一次编辑的档案<br>:ls  会列出目前buffer中的所有档案<br>     编号后边有#的代表是前一个文件，可以通过:e#来进入，<br>     %a 的代表是当前文件，<br>     什么也没有的可以通过:bn 来进入，这里的n 代表文件编号。<br>     :b 文件名或编号移至该文件。<br>:args  查看当前打开的所有的文件<br>:h pattern 可以查看regexp内容       <br>:changes 列出改变列表      :h changelist 查看‘改变表转跳帮助’<br>:ju(mps) 列出跳转轨迹<br>:history 列出历史记录<br>:his c   命令行历史<br>:his s   搜索历史<br>"ayy@a   : 把当前行作为命令执行<br>yy@"     : 上面的匿名寄存器<br>u@.      : 只执行键入的命令</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053804,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053804,'Bury',this)">反对(0)</a></div><span id="comment_2053804_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053810" class="layer">#11楼</a><a name="2053810" id="comment_anchor_2053810"></a> <span class="comment_date">2011-03-24 14:05</span> | <a id="a_comment_author_2053810" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053810" class="blog_comment_body"><a href="#2053804" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053804);">@</a>BI<br>使用外部sort 排序<br>:%!sort -u : 用sort 排序整个文件（结果覆盖整个文件）<br>:'a,'b!sort -u : 从mark a 到mark b 之间的内容进行排序<br>!1} sort -u : 排序一个段落<br>:g/^$/;,/^$/-1!sort : 将每个块排序(注意这个关键的;)<br>:badd file.c : 添加file.c 到buffer 列表<br>:b 3 : 前往第三个 buffer<br>:b main : 前往含有main的buffer 中 比如说 main.c<br>:sav php.html : 把当前文件存为php.html并打开<br>:sav! %&lt;.bak : 换一个后缀名保存 (旧方法)<br>:sav! %:r.cfm : 同上<br>:sav %:s/fred/joe/ : 替换文件名<br>:sav %:s/fred/joe/:r.bak2 : 替换文件和后缀<br>:!mv % %:r.bak : 重命名当前文件<br>:e! : 打开未修改之前的文件<br>:w c:/aaa/% : 存储文件到指定位置<br>:e # : 编辑标记为#的文件在buffer 中<br>:rew : 返回到第一个可编辑的文件<br>:brew : 回到第一个buffer<br>:sp fred.txt : 分割窗口打开fred.txt<br>:sball,:sb : 把所有的 buffers 分割显示在一个窗口中 (超有用)<br>:scrollbind : 让每个分离的窗口，同步滚动<br>:map &lt;F5&gt; :ls&lt;CR&gt;:e # : 按F5 显示所有buffer, 并显示行号<br>:set hidden : 允许不保存当前buffer 而进行切换<br>V : 进入可视化行选择模式<br>gv : 重新选择<br>:s/.\{,69\};\s*\|.\{,69\}\s\+/&amp;\r/g  在70 列的时候换行<br>vim -c "%s/ABC/DEF/ge | update" file1.c        在打开一个文件时执行多条命令<br>vim -c "argdo %s/ABC/DEF/ge | update" *.c      在一组文件上执行多条命令<br>vim -c "argdo /begin/+1,/end/-1g/^/d | update" *.c   从一系列文件中删除一块区域<br>在文件中插入行号<br>:g/^/exec "s/^/".strpart(line(".")." ", 0, 4)<br>:%s/^/\=strpart(line(".")." ", 0, 5)<br>:%s/^/\=line('.'). ' '<br>命令使用于多个文件<br>:argdo %s/foo/bar/e : 在所有文件上操做 :args<br>:bufdo %s/foo/bar/e<br>:windo %s/foo/bar/e<br>:argdo exe '%!sort'|w! : 包含外部命令<br>REGEXP:<br>  * 0次以及多次<br>  + 一次以及以上<br>  = 0或1次<br>  | or的意思<br>  :%s/\([a-z]\)\1/test/g 将aa,bb,cc,……zz替换为test <br>  :%s/[a-z][a-z]/test/g 不是一个意思 会将aa,ab,ac,等都替换为test<br>mastering regular expressions(o'reilly&amp;asscociate) 书里详细介绍了正则表达式<br>\{m,n\} 前面部分的从m次至n次出现<br>\{m\}   精确m次出现 <br>\{m,\}  大于等于m次出现<br>/\(foo\|bar\)\+  匹配 foo  foobar  foofoo barfoobar<br>/.*fred\&amp;.*joe   搜索同时包括fred 跟joe的行<br>/\&lt;\d\d\d\d\&gt;    搜索独立的4位数字<br>/\D\d\d\d\d\D    搜索恰好4位的数字<br>/&lt;\zs[^&gt;]*\ze&gt;   匹配&lt;与&gt;所包含的内容 但不包含&lt;&gt;<br>/&lt;\@&lt;=[^&gt;]*&gt;\@=   查找&lt;与&gt;所包含的内容<br>/&lt;\@&lt;=\_[^&gt;]*&gt;\@=   多行匹配&lt;与&gt;所包含的内容<br>/&lt;!--\_p\{-}--&gt;    匹配&lt;与&gt;所包含的所有内容   {-}是非贪婪匹配<br>:%s/^\n\+/\r/   压缩空行，多个替换为一个<br>/&lt;\zs[^&gt;]*\ze&gt;    匹配&lt;&gt;之间的内容<br>/&lt;\@&lt;=[^&gt;]*&gt;\@=   search for tag contents, ignoring chevrons 匹配&lt;&gt;标签中的内容，而忽略&lt;和&gt;本身<br>/&lt;\@&lt;=\_[^&gt;]*&gt;\@= search for tags across possible multiple lines<br>:%s/\r//g    delete dos returns ?M<br>:%s/\r/\r/g   turn dos returns ?M into real returns (fixes joined lines)<br>在一个模式中的“或”操作符是\|   例如 /foo\|bar   他匹配到foo 或着是bar<br>         /\(foo\|bar\)\+  它匹配到foo foofoo foobvar barfoobar<br>         /end\(if\|while\|for\) 匹配的是endif endwhile endfor<br>         /forever\&amp;... 只会匹配到forever中的for 而不会匹配到fortuin的for<br>         /[a-z]可以匹配a到z中的一个字母<br>         /[0123456789abc] 可以匹配0123456789abc中的任意一个字母<br>         /[0-9a-c] 与上面等价<br>         /[^a] 匹配除a之外的任意字符<br>         /"[^"]*" 其中[^"]表示除双引号之外的任意一个字符 总的命令将会匹配到“foo”或“3!x”<br>         \d   数字  等价于[0-9]<br>         \D   非数字 等价于[^0-9]<br>         \s   空白字符 等价于[	]包含&lt;tab&gt;&lt;space&gt;<br>         \S   非空白字符 等价于[^	]<br>         \l    小写字母  等价于[a-z]<br>         \L    非小写字母 等价于[^a-z]<br>         \u     大写字母 等价于[A-Z]<br>         \U     非大写字母 等价于[^A-Z] <br>         \i     匹配标识符字符[a-zA-Z0-9]<br>         \I     匹配[a-zA-Z]<br>         \w     匹配一个字母、数字、或下划线[a-zA-Z0-9_]<br>\_s* 任何空白字符包括换行<br>\_.* 任何字符包括换行</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053810,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053810,'Bury',this)">反对(0)</a></div><span id="comment_2053810_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053812" class="layer">#12楼</a><a name="2053812" id="comment_anchor_2053812"></a> <span class="comment_date">2011-03-24 14:08</span> | <a id="a_comment_author_2053812" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053812" class="blog_comment_body"><a href="#2053810" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053810);">@</a>BI<br>高级正则表达式<br>1./\s*\&lt;\(return\|else\)\@!\w\+\s\+\w\+\s*([^)]*)\s*;\@!\s*$  查找多由c语言中的函数<br>    \&lt;    零长度匹配，表示单词的开始 <br>    \@!   零长度匹配  表示要求他前面的内容不存在<br>2.要求是将<br>&lt;par type="I" flags="RO"&gt;<br>&lt;/par&gt;<br>&lt;par type="I" flags="RO,H"&gt;<br>&lt;/par&gt;<br>变成<br>&lt;par type="I" flags="RO" id="0"&gt;<br>&lt;/par&gt;<br>&lt;par type="I" flags="RO,H" id="1"&gt;<br>&lt;/par&gt;<br>方法一：<br>第一步，增加id=""：<br>:g/^&lt;par type/s/&gt;$/ id=""&gt;/g<br>第二步，增加数字：<br>:let i=0 | g/^&lt;par type/s/id="\zs\ze"&gt;$/\=i/| let i=i+1<br>         这是用|号(逻辑或的符号,不是字母)连接的三个语句,<br>         前后两个就是给i赋初值和递增,<br>         id="\zs\ze"&gt;$ \zs 和\ze 是"零长度匹配",在这两个中间的才作为匹配内容,<br>         这个语句就是只匹配双引号中间的内容,<br>         这样不会把其他有用的地方替换掉了<br>         \=i \=是把后面的字符串当成表达式来对待,在这里就是i 的值<br>方法二:<br>这是用一步解决的方法：<br>:let i=0 | g/^&lt;par type/s/&gt;$/\=substitute(" id = \"0\"&gt;", "0", i,"")/| let i = i+1<br>和上面的方法基本相同,就是替换右尖括号,不过这次是替换为substitute(" id = \"0\"&gt;", "0", i,"")<br>这是一个替换函数,就是在id=0中查找第一个0,并替换为i 的值,最后一个参数是{flag},一般为空.<br>08.08.19 我自己也写了一个,和上面的基本一样,就是不用substitute函数而已<br>:let i = 1 | g/^&lt;par type=/s/&gt;$/\=" id = " . i . "&gt;"/ | let i += 1<br>其中\=表示后面是个表达式,小数点用以连接字符串的几个部分,中间用了i 的值<br>3. 每行前面加上行号<br>法一：<br>:g/^/exec "s/^/".strpart(line(".")." ", 0, 4)<br>法二：<br>:%s/^/\=strpart(line(".")." ", 0, 4)/g<br>   line()返回一个行数,特别的,<br>     line(".")返回当前光标所在行的行数,其他的参数见:h line()<br>   g/^/exec是对所有行执行一个或多个命令,具体可以:h exec 来查看,<br>   每个命令必须用字符串,也就是要放在双引号里面,多个命令间用空格分割.<br>   在上面的例子中,后面只有一个命令,但是这个命令是用小数点连起来的一个字符串<br>4.如下的赋值<br>firstline=1 //comment line 1<br>secondline=2 /*comment block 1*/<br>thirdline = 3//comment line 2<br>forthline= 4/*comment block 2*/<br>fifthline =5<br>希望整理成<br>firstline = 1 //comment line 1<br>secondline = 2 /*comment block 1*/<br>thirdline = 3 //comment line 2<br>forthline = 4 /*comment block 2*/<br>fifthline = 5<br>下面是我写的语句,比较长,应该还有更好的写法,以后有改进再补充<br>:g/=/s#\v(.*)\=\s*(((//|/\*)@!.)*)\ze(//|/\*)?#\=strpart(submatch(1) . " ",0,13) . "= " .<br>strpart(submatch(2) . " ",0,10)# | s/\s*$//<br>前面紫色部分,查找所有包含等号的行,然后执行后面两个命令,<br>第一个命令是橘黄色的部分,第二个命令是蓝绿色部分,<br>第二个命令就是去掉行末的空格,这个不需要多解释,重点解释第一个命令<br>s#a#b#是一个替换的命令,这里用#做分隔符,是因为后面的表达式中有斜杆/,<br>如果用斜杆作为分隔符,则表达式中的斜杆需要转义,稍显累赘<br>\v表示后面的正则表达式中,除了字母和数字和下划线和斜杆,其他的都作为特殊字符对待,<br>有这个设置的好处,是后面可以省掉好几个用来转义的反斜杆,<br>像\(\)\+这些都可以简写成()+<br>\= 匹配一个等号<br>\s* 匹配0个或0个以上的空白符<br>加粗的部分是一个比较重要的地方,一共三层括号,最外层括号使这个括号内部的内容成为一个子匹配,<br>在后文中的submatch(2)就是指的这一部分,<br>后面的一个*号,表示第二个括号内的内容可以匹配0 次或0 次以上.<br>第二个括号内部,@!是个"零长度匹配",表示前面第三层括号内的内容不能出现,<br>小数点匹配除了换行符外的任意字符,<br>第三层括号里面,就是c语言注释的两种形式,//和/*,中间用|连接,表示"或"的关系.<br>整个粗体部分的意思就是,匹配尽量长的,且不是C语言注释的内容.<br>\ze 匹配结束,后面的所有内容只是作为限制条件,<br>在替换的时候,只会替换\ze之前的内容后面的括号和粗体部分的第三层括号内容是一样的,<br>后面的问号表示匹配0次或1次,因为不是所有的行都有注释的后面就是替换成的内容了,<br>strpart 函数相当于VB 中的mid 函数,就是取字符串从某个位置开始的一段内容,<br>这里用了一个小技巧(虽然写起来挺长的,但是想法简单),<br>就是比如要把一个字符串处理成13 个字符的长度,不足的位置补空格, <br>我们就先在这个字符串后面加上13个空格,然后截取整段内容的前13个字符,<br>这样就满足要求了,还有其他的方法,比如用<br>另外一个函数submatch()表示的是前面用查找的时候的子匹配,也就是在括号中的内容,<br>submatch(0)对应这个匹配的内容,submatch(1)对应(.*)的内容,<br>submatch(2)对应粗体部分的内容<br>剩下的需要注意的地方,就是这里的小数点相当于VB中的&amp;,是作为字符串的连接符号.</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053812,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053812,'Bury',this)">反对(0)</a></div><span id="comment_2053812_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053815" class="layer">#13楼</a><a name="2053815" id="comment_anchor_2053815"></a> <span class="comment_date">2011-03-24 14:09</span> | <a id="a_comment_author_2053815" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053815" class="blog_comment_body"><a href="#2053812" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053812);">@</a>BI<br>这第一个命令的作用,就是找到等号,将等号前面的部分,用空格补齐到13个字符,<br>然后在等号后面空两格,等号后面原有的空格无论多少都去掉,然后把后面的内容,<br>到注释符号前面都整理成10个字符(不足补空格),最后才是注释<br>这样第一个命令执行后,对于没有注释的行,会多出来10个空格,不太好看,<br>所有就加了第二条命令,去掉行末的空白<br><br>5.使用vim匹配两个特殊字符之间的内容并替换<br>举例如下:<br>fileA:<br>Mark<br>..............<br>Mark<br>......<br>Mark<br>..............<br>Mark<br>......<br>Mark<br>..............<br>Mark<br>如果要把Mark之间的内容替换成:ABCD.<br>那么应该使用正则表达式:g/Mark\_.\{-}Mark/ s//ABCD/g<br>如果要匹配第一个Mark到最后一个Mark,并替换成ABCD,<br>那么应该使用正则表达式:g/Mark\_.*Mark/ s//ABCD/g<br><br>6.<br>这里以编写C语言程序为例， 假设，我们最终想完成的代码如下：<br>#define BIT_MASK_1 (1 &lt;&lt; 0)<br>#define BIT_MASK_2 (1 &lt;&lt; 1)<br>#define BIT_MASK_3 (1 &lt;&lt; 2)<br>#define BIT_MASK_4 (1 &lt;&lt; 3)<br>#define BIT_MASK_5 (1 &lt;&lt; 4)<br>#define BIT_MASK_6 (1 &lt;&lt; 5)<br>#define BIT_MASK_7 (1 &lt;&lt; 6)<br>#define BIT_MASK_8 (1 &lt;&lt; 7)<br>#define BIT_MASK_9 (1 &lt;&lt; 8)<br>#define BIT_MASK_10 (1 &lt;&lt; 9)<br>#define BIT_MASK_11 (1 &lt;&lt; 10)<br>#define BIT_MASK_12 (1 &lt;&lt; 11)<br>#define BIT_MASK_13 (1 &lt;&lt; 12)<br><br>只需要先写好第一行，如下：<br>#define BIT_MASK_1 (1 &lt;&lt; 0)<br>然后，我们回到Normal模式，在这一行上输入“Y12p"，拷贝此行，然后粘贴12次。这样，我们得到总<br>共13行上面的内容。<br>现在使用"V12j"命令选中这13行，然后使用两次替换命令：<br>:'&lt;,'&gt;s/BIT_MASK_\zs\d*\ze/\=line(".") - line("'&lt;") + 1<br>:'&lt;,'&gt;s/\zs\d*\ze)$/\=line(".")-line("'&lt;")<br>    其中'&lt;,'&gt; 为我们所选中的区域 (:help '&lt;，:help '&gt; )<br>     line(".") 当前光标所在行的行号 (:help line() )<br>     line("'&lt;") 我们所选区域中第一行的行号 (:help line() )<br><br><br>7.<br>UniqueID2 = lview.focusedItem.subItems.opIndex(0).text;<br>Parent = lview.focusedItem.subItems.opIndex(0).text;<br>Children = lview.focusedItem.subItems.opIndex(0).text;<br>login = lview.focusedItem.subItems.opIndex(1).text;<br>txtCust.text = lview.focusedItem.subItems.opIndex(2).text;<br>txtProj.text = lview.focusedItem.subItems.opIndex(3).text;<br>替换为<br>UniqueID2 = lview.focusedItem.subItems.opIndex(0).text;<br>Parent = lview.focusedItem.subItems.opIndex(1).text;<br>Children = lview.focusedItem.subItems.opIndex(2).text;<br>……<br><br>用<br>:let n=0 | g/opIndex(\zs\d\+/s//\=n/|let n+=1<br>      其中： | 用来分隔不同的命令 (:help :bar )<br>      <br>8. <br>g/pattern1/;/pattern2/-1d  pattern1与pattern2之间的内容删除，包括pattern1所在的行但是不包括pattern2所在的行<br>g/pattern1/;/pattern2/-1move $ 将pattern1（包括此行）至pattern2所在行之间的内容移动到文章末<br><br><br><br>:g/firstcatalog/     显示所有的fistcatalog<br>:g/firstcatalog/nu    显示所有fistcatalog以及所在的行号<br>:g/firstcatalog/z#=4     显示所有firstcatalog以及附近的4行  可以用 :h :z 看到详细说明)<br>:g!/firstcatalog/     显示不包含firstcatalog的行<br><br><br><br><br>         <br><br>/bugs\(\_.\)*bunny   匹配所有bugs到bunny的字符串<br>/fred\_s*joe/i       匹配fred 开始到joe，之间一定得是空白字符<br>/bugs\(\_.\)*bunny   匹配所有bugs到bunny的字符串<br>:%s/^\n\{3}// ;: 删除连续3个空行<br>:%s/^\n\+/\r/ ;: 压缩空行，多个替换为一个<br>:%s,\(all/.*\)\@&lt;=/,_,g ;: 用 _ 替换 "all/"之后的 /<br>:'a,'bg/fred/s/dick/joe/igc   非常有用  'a,'b指定一个范围：marka ~ mark b<br>:g/fred/,/joe/d : 删除所有的从fred 到joe<br><br>:%s/[.!?]\_s\+\a/\U&amp;\E/g   大写所有句子的第一个字母<br><br><br><br>宏替换：<br>:nmap &lt;F2&gt; :nohls&lt;cr&gt; 取消被搜索字串的高亮<br>:nmap &lt;F9&gt; &lt;C-W&gt;w 命令模式下转移光标到不同窗口<br>:imap &lt;F9&gt; &lt;ESC&gt;&lt;F9&gt; 输入模式下运行&lt;F9&gt;<br>:nmap &lt;F12&gt; :%s= *$==&lt;cr&gt; 删除所有行尾多余的空格.<br>:imap &lt;F12&gt; &lt;ESC&gt;&lt;F12&gt; 同上<br><br><br><br><br><br>/joe/e : 设置光标到匹配"joe"的末尾<br>/joe/e+1 : 设置光标到匹配"joe"的末尾再后移一位<br>/joe/s-2 : 设置光标到匹配"joe“的开头再前移两位<br>/joe/-2 : 设置光标到匹配"joe“的行再向上移两行的开头<br><br><br><br>在一行里写多种命令：<br>:%s/\f\+\.gif\&gt;/\r&amp;\r/g | v/\.gif$/d | %s/gif/jpg/ : <br>             将所有带有.gif的行，前后均加入一个空行；<br>             将不带有.gif 字样的行全部删除；<br>             将所有行中的gif换成jpg；<br>             注意三条语句，一旦某一条失败，则不执行下面的语句</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053815,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053815,'Bury',this)">反对(0)</a></div><span id="comment_2053815_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053817" class="layer">#14楼</a><a name="2053817" id="comment_anchor_2053817"></a> <span class="comment_date">2011-03-24 14:10</span> | <a id="a_comment_author_2053817" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053817" class="blog_comment_body">:%s/a/but/gie|:update|:next : <br>             首先，将当前文件中的所有a 变为but；<br>             然后保存文件；<br>             最后进入下一个文件缓存区。如果有多个文件需要如此处理，<br>             <br>使用函数<br>:s/__date__/\=strftime("%c")/ : 将__date__替换成当前日期，使用strftime<br>                 函数。注意\=表示后面是表达式，结果可能是2008-1-3 17:59:46<br><br>\=submatch(0) 匹配每行第一组数字<br>替换一个特定字符串为数字<br>:let i=10 | 'a,'bg/Abc/s/yy/\=i/ |let i=i+1 # 将yy转换成10，11，12 等等<br>比上面的更精确<br>:let i=10 | 'a,'bg/Abc/s/xx\zsyy\ze/\=i/ |let i=i+1 # 将xxyy 转换成 xx11（第<br>一行），xx12（第二行），xx13（第三行）<br><br>:%s:\(\(\w\+\s\+\)\{2}\)str1:\1str2:<br>           处理字段，替换所有在第三个字段中的str1 为str2           <br>           <br>交换两个单词<br>:%s/\&lt;\(on\|off\)\&gt;/\=strpart("offon", 3 * ("off" == submatch(0)), 3)/g           <br>           <br>:%s/?\(.*\)\n\1$/\1/             delete duplicate lines<br>           <br><br><br><br>vim实现多文件查找和替换<br>对于多文件中的查找来说，比较容易，vimgrep是vim自带的一个工具，类似于<br>linux下的grep的用法就可以实现。比如要在当前目录查找word，<br>使用如下：<br>:vimgrep word *<br>如果想要递归查找所有下级目录里面，那么就用<br>:vimgrep word **<br>另外，如果想要在使用是快捷查找当前光标下的字母，则只需要在vimrc中添加如下代码：<br>“对搜索的设置<br>map ft :call Search_Word()&lt;CR&gt;:copen&lt;CR&gt;<br>function Search_Word()<br>let w = expand(”&lt;cword&gt;”) ” 在当前光标位置抓词<br>execute “vimgrep ” w ” *”<br>endfunction<br><br>第二，多文件替换。<br>实际上只要如下两个命令即可（假设要将当前目录下所有扩展名为.txt的文件中的hate<br>替换成love）:<br>:args *.txt<br>:argdo %s/hate/love/gc | update<br>就可以完成啦。解释如下，<br>:args *.txt<br>这样写会扫描当前目录下的.txt文件，并加入到参数列表。但是这样写只会扫描当前目录，<br><br>如果想要递归扫描所有下级目录的话，用:args **/*.txt<br>而:argdo %s/hate/love/gc | update<br>是将参数列表中的所有文件的hate提换成love，并写入硬盘（如果没有|update，就不<br>会写入，但相应的替换也会被中断）<br>最后强调一点，使用替换命令的时候，一定记得备份，因为替换是直接写入硬盘滴哦……<br><br><br><br>专题：<br>1.模式行<br>:help modeline<br>:help 'modeline'<br>:help 'modelines'<br><br>模式一<br>// vim:ft=cpp tabstop=4<br>模式二<br>vim:set tw=78 ts=8 ft=help norl:sdfasdfasdgs<br><br>第一种形式中最后一设置项后的冒号或空格是可有可无的。<br>而第二种形式中最后一设置项后一定要有冒号——不管冒号后有没有文字。<br>在设置项中如果要使用空格、制表符或冒号可以在前面加上转义符－`\‘。<br>其他需要转义符的情况见`:help option-backslash‘。<br>2.折叠<br>:help folding<br>:help foldmethod<br>:help fold-methods<br>:help <br>:set foldmethod=manual<br>:3,8fo<br>折叠方式：<br>1)`manual‘ 手工规则<br>手工规则下，折叠层级由折叠区域的嵌套关系计算。当我们手工指定一个折叠的区域后，Vim<br>对这个区域的开始行和结束行做记号，多个区域的开始行和结束行形成了嵌套关系。如果一<br>个折叠区域不包含在其他区域之中，则其折叠层级为1；当这个区域直接包含于另一个区域<br>时则其为折叠层级为另一个区域的层级加1；依些类推。<br>2)`marker‘ 标记规则<br>当使用标记规则折叠时，层级的计算跟手工规则相似。除了它是根据文件中的标记来划分一<br>个折叠区域而不是手工指定。然后根据这些区域间的嵌套关系计算折叠层级。具体使用的标<br>记通过`foldmarker‘设置。默认是使用'{{{,}}}'。<br><br>手工和标记类似<br>:set foldmethod=manual<br>:3,8fo  或着高亮选择第三至8行 后 输入指令zf  <br><br>使用manual一般是临时性的折叠。如果每次编辑特定文件都需要做同样折叠时时建议结合modeline使用其他折叠<br>规则。如果不得不使用manual方式时，你可以用:mksession保存包括折叠在内的一切当前编辑设置或者<br>用:mkview保存当前窗口<br><br>3)`indent‘ 缩进规则<br>行的缩进宽度除以`shiftwidth‘，并向下取整得到每一行的折叠层级。同一折叠层级及更高折<br>叠层级的连续行形成折叠。而其中的更高折叠层级的行——如果有的话，形成嵌套的折叠。<br><br>4)`syntax‘ 语法规则<br>跟`marker‘差不多，只是所用的标记是在语法文件中定义的，而不是通过`foldmarker‘设置。<br>5)`diff‘ 差异规则<br>除了差异行及其前 后三行1外，其余行折叠（层级为1）。<br>6)`expr‘ 表达式规则<br>由用户指定折叠层级的计算方式。方法是对`foldexpr‘进行设置。具体用法稍后说明。<br>:set foldmethod=expr<br>:set foldexpr=1<br>所有的行都被折叠 foldexpr将每行的折叠层级设置为1<br>v:lnum&gt;=8&amp;&amp;v:lnum&lt;=20?1:0<br>v:lnum&gt;=8\ &amp;&amp;\ v:lnum&lt;=20\ ?\ 1:0</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053817,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053817,'Bury',this)">反对(0)</a></div><span id="comment_2053817_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2053818" class="layer">#15楼</a><a name="2053818" id="comment_anchor_2053818"></a> <span class="comment_date">2011-03-24 14:11</span> | <a id="a_comment_author_2053818" href="http://www.cnblogs.com/alex-wang/" target="_blank">BI</a> <a href="http://space.cnblogs.com/msg/send/BI" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2053818" class="blog_comment_body"><a href="#2053817" title="查看所回复的评论" onclick="commentManager.renderComments(0,50,2053817);">@</a>BI最后一些了  呵呵 以后大家多多补充哦<br>三个在折叠的表达式比较常用几点：<br>v:lnum   内置变量，表示是“当前行的行号”。:help v:var 查看更多内置变量。<br>getline()    函数用以返回指定行的内容。<br>?:   三元条件语句。见:help expr1<br><br>v:lnum&gt;=8&amp;&amp;v:lnum&lt;=20?1:0<br>v:lnum&gt;=8\ &amp;&amp;\ v:lnum&lt;=20\ ?\ 1:0<br><br>:set foldexpr=(v:lnum&gt;=8&amp;&amp;v:lnum&lt;=20?1:0)<br><br>如果一行以@samp{#}开始，折叠。<br>:set foldexpr=getline(v:lnum)=~/^#/?1:0<br><br>以每5行为一组折叠<br>set v:lnum%5-1?1:'&gt;1'<br><br>用正则表达式@samp{.}判断当前行是否含有文字。<br>set foldexpr=getline(v:lnum)=~'.'?1:0<br><br>在文章的末尾加入<br>vim: ro: fdm=expr: fde=getline(v\:lnum)=~'.'?1\:0:<br>foldtext=foldtext().v\:folddashes.getline(v\:folds<br>tart+1): foldcolumn=2<br>则每次打开文件会折叠（方式是空行之间的折叠在一起）<br><br>导出折叠的部分到笔记.txt<br>:folddoclosed .w! &gt;&gt;笔记.txt<br>如果folddoclosed 只对当前关闭的折叠有效，要导出所有的折叠先使用指令zR<br>删除所有的marker用 :g/{{{/norm zD<br><br>在'.vimrc'（windows中是'_vimrc'）中加入，下面的内容：<br>" 根据邮件的后缀名进行相关的设置。如果打开的文件后缀名是<br>'.eml'，则当成邮件处理。<br>autocmd! BufReadPre *.eml se fdm=expr<br>fde=v:lnum==1?1:getline(v:lnum)=~'^$'?0:'='<br>fdt=Mailfdt(v:foldstart,v:foldend) ft=mail | syn on<br>" 定义函数，用来返回折叠的标题。<br>" 以折叠的第一和最后一行的行号为参数<br>func! Mailfdt(fst,fen)<br>let fst=a:fst<br>" 保存邮件的标题和发信人<br>let hfrom=''<br>let hsub=''<br>let tline=''<br>while a:fen!=fst<br>let tline=getline(fst)<br>" 判断当前行是否是我们感兴趣的行<br>" 如果是则保存<br>if tline=~'^From: '<br>let hfrom=tline<br>elseif tline=~'^Subject: '<br>let hsub=tline<br>endif<br>let fst=fst+1<br>endwhile<br>" 返回相关信息<br>if strlen(hfrom) || strlen(hsub)<br>return hsub . "\t\t\t" . hfrom<br>else<br>return getline(a:fst)<br>endif<br>endfunc<br>在加入上面的内容后，我们现在用Vim打开邮件（实际是以.eml作后缀名的文件）<br>看看，是不是清爽多了！<br><br>这是比较不常用但又可能比较有用的内容。使用:help查看相关信息。<br>v:foldstart 内置变量只读变量记录只前所在折叠的起始行号<br>v:foldend 内置变量结束行号，其余同上<br>foldlevel() 函数返回指定行的折叠层级<br>'foldlevel' 设置项只有高于这个值的折叠层级才会进行折叠<br>'foldnestmax' 设置项指定最深的嵌套数<br>'foldignore' 设置项在 indent规则中以这个值开始的行的将根据前后行的值来设定折叠层级<br>:folddoclose 命令 对当前闭合的行运行命令<br>:folddoopen 命令 对未折叠的行或定义了折叠但未闭合的行运行命令<br><br>更多内容参考`:help vim-script‘<br>:help :folddoopen <br>:help :folddoclosed<br>3.<br>高效<br>1.移动速度<br>  set hlsearch<br>  *<br> 使用fold 先全部关闭 移动到制定fold后再打开<br>2.Don't type it twice<br>  使用CTR+n 自动填充  如果不对 则 CTR+p 回到起点 敲入新的字符 再  CTR+n时<br><br>3.Fix it when it's wrong<br>:iabbrev teh the<br>:syntax keyword WordError teh<br>4.A file seldom comes alone<br>:!ctags -R .<br>:tag init<br>:tnext<br>:grep “\&lt;K_HOME\&gt;” **/*.h<br>:cnext<br>:make<br>gf   goto file<br><br><br><br>语法高亮帮助文档<br>:help syntax.txt<br>:help 'tags'<br>:help tags-file-format<br>:help tags-and-searches<br><br>:tag 关键字（跳转到与“关键字”匹配的标记处）<br>:tselect [关键字]（显示与“关键字”匹配的标记列表，输入数字跳转到指定的标记）<br>:tjump [关键字]（类似于“:tselect”，但当匹配项只有一个时直接跳转至标记处而不再显<br>示列表）<br>:tn（跳转到下一个匹配的标记处）<br>:tp（跳转到上一个匹配的标记处）<br>Ctrl-]（跳转到与光标下的关键字匹配的标记处；除“关键字”直接从光标位置自动获得外，功<br>能与“:tags”相同）<br>g]（与“Ctrl-]”功能类似，但使用的命令是“:tselect”）<br>g Ctrl-]（与“Ctrl-]”功能类似，但使用的命令是“:tjump”）<br>Ctrl-T（跳转回上次使用以上命令跳转前的位置）<br></div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2053818,'Digg',this)">支持(1)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2053818,'Bury',this)">反对(0)</a></div><span id="comment_2053818_avatar" style="display:none;">http://pic.cnitblog.com/face/u282388.jpg</span><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2140427" class="layer">#16楼</a><a name="2140427" id="comment_anchor_2140427"></a> <span class="comment_date">2011-07-01 10:10</span> | <a id="a_comment_author_2140427" href="http://home.cnblogs.com/u/311380/" target="_blank">混元真人</a> <a href="http://space.cnblogs.com/msg/send/%e6%b7%b7%e5%85%83%e7%9c%9f%e4%ba%ba" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2140427" class="blog_comment_body">要学习的真多啊</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2140427,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2140427,'Bury',this)">反对(0)</a></div><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2643926" class="layer">#17楼</a><a name="2643926" id="comment_anchor_2643926"></a> <span class="comment_date">2013-03-27 14:33</span> | <a id="a_comment_author_2643926" href="http://www.cnblogs.com/shongbee2/" target="_blank">shongbee2</a> <a href="http://space.cnblogs.com/msg/send/shongbee2" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2643926" class="blog_comment_body">谢谢楼主，很受用，新手问一下，这个是哪里找的资料？</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2643926,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2643926,'Bury',this)">反对(0)</a></div><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2675503" class="layer">#18楼</a><a name="2675503" id="comment_anchor_2675503"></a> <span class="comment_date">2013-05-08 11:04</span> | <a id="a_comment_author_2675503" href="http://home.cnblogs.com/u/353703/" target="_blank">waterbool</a> <a href="http://space.cnblogs.com/msg/send/waterbool" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2675503" class="blog_comment_body">为什么数字‘0’不管用，只到了行首，而不是文章的开头，要是用小键盘的0，则进入了insert模式。</div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2675503,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2675503,'Bury',this)">反对(0)</a></div><br>
+			</div>
+		</div>
+	
+		<div class="feedbackItem">
+			<div class="feedbackListSubtitle">
+				<div class="feedbackManage">
+					&nbsp;&nbsp;<span class="comment_actions"></span>
+				</div>
+				<a href="#2682109" class="layer">#19楼</a><a name="2682109" id="comment_anchor_2682109"></a><span id="comment-maxId" style="display:none;">2682109</span><span id="comment-maxDate" style="display:none;">2013/5/16 12:07:23</span> <span class="comment_date">2013-05-16 12:07</span> | <a id="a_comment_author_2682109" href="http://home.cnblogs.com/u/504523/" target="_blank">rambo1</a> <a href="http://space.cnblogs.com/msg/send/rambo1" title="发送站内短消息" class="sendMsg2This">&nbsp;</a>
+			</div>
+			<div class="feedbackCon">
+				<div id="comment_body_2682109" class="blog_comment_body">一个很不错讲解分屏的<br><a href="http://coolshell.cn/articles/1679.html" target="_blank">http://coolshell.cn/articles/1679.html</a></div><div class="comment_vote"><a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(2682109,'Digg',this)">支持(0)</a><a href="javascript:void(0);" class="comment_bury" onclick="return voteComment(2682109,'Bury',this)">反对(0)</a></div><br>
+			</div>
+		</div>
+	<div id="comments_pager_bottom"></div></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id="comment_form" class="commentform">
+<a name="commentform"></a>
+<div id="divCommentShow"></div>
+<div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" id="lnk_RefreshComments" onclick="return RefreshCommentList();">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+<div id="comment_form_container"><div class="login_tips">注册用户登录后才能发表评论，请 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return login('commentform');">登录</a> 或 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return register();">注册</a>，<a href="http://www.cnblogs.com/">访问</a>网站首页。</div></div>
+<div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+<div id="site_nav_under"><a href="http://www.cnblogs.com/" target="_blank" title="程序员的网上家园">博客园首页</a><a href="http://q.cnblogs.com/" target="_blank" title="程序员问答社区">博问</a><a href="http://news.cnblogs.com/" target="_blank" title="IT新闻">新闻</a><a href="http://home.cnblogs.com/ing/" target="_blank">闪存</a><a href="http://job.cnblogs.com/" target="_blank">程序员招聘</a><a href="http://kb.cnblogs.com/" target="_blank">知识库</a></div>
+<div id="ad_under_post_holder">
+
+<div id="google_ad_c1" class="c_ad_block">
+    <!-- cnblogs_blogpost_C1_sitehome -->
+    <div id="div-gpt-ad-1346480159711-0" style="width: 300px; height: 250px;">
+    
+    <div style="border: 0pt none;" id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__container__"><iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom;" marginheight="0" marginwidth="0" scrolling="no" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0" id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0" frameborder="0" height="250" width="300"></iframe></div><iframe src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px none; vertical-align: bottom; visibility: hidden; display: none;" marginheight="0" marginwidth="0" scrolling="no" name="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__hidden__" id="google_ads_iframe_/1090369/cnblogs_blogpost_C1_sitehome_0__hidden__" frameborder="0" height="0" width="0"></iframe></div>
+</div>
+<div id="blog_news_kb"><div class="itnews c_ad_block"><b>最新IT新闻</b>:<br> ·  <a href="http://news.cnblogs.com/n/207628/" target="_blank">超级插班生 Quora 将参加 Y Combinator 夏季培训</a><br> ·  <a href="http://news.cnblogs.com/n/207627/" target="_blank">Pinterest 的“引导式搜索 (Guided search)” 是如何开发出来的</a><br> ·  <a href="http://news.cnblogs.com/n/207626/" target="_blank">今晚将上演天文奇景“火星合月”</a><br> ·  <a href="http://news.cnblogs.com/n/207625/" target="_blank">万万没想到！俄罗斯方块竟是“减肥神器”</a><br> ·  <a href="http://news.cnblogs.com/n/207624/" target="_blank">工信部、专家及央视建议中国用户改用“国产Linux”</a><br>» <a href="http://news.cnblogs.com/" title="IT新闻" target="_blank">更多新闻...</a></div><div class="itnews c_ad_block" id="kb_block"><b>最新知识库文章</b>:<br><div id="kb_recent"> ·  <a href="http://kb.cnblogs.com/page/207490/" target="_blank">我的成长磨练：每天写博客</a><br> ·  <a href="http://kb.cnblogs.com/page/125434/" target="_blank">虚拟化——互联网时代的产品开发加速器</a><br> ·  <a href="http://kb.cnblogs.com/page/156124/" target="_blank">从技术到管理：思维转变是关键</a><br> ·  <a href="http://kb.cnblogs.com/page/128974/" target="_blank">年轻人，卷起袖子，来把手弄脏吧!</a><br> ·  <a href="http://kb.cnblogs.com/page/207086/" target="_blank">当随机不够随机：一个在线扑克游戏的教训</a><br></div>» <a href="http://kb.cnblogs.com/" target="_blank">更多知识库文章...</a></div></div></div>
+<script type="text/javascript">
+var enableGoogleAd = true;
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+fixPostBodyFormat();
+loadAdUnderPost();
+</script>
+<div id="HistoryToday" class="c_ad_block"></div>
+<script type="text/javascript">
+loadBlogSignature();
+LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate);
+GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+</script>
+<script type="text/javascript">
+    $.ajax({ url: 'http://counter.cnblogs.com/blog/post/' + cb_entryId, type: 'get', dataType: 'script', cache: true });
+</script>
+</div>
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"><div id="profile_block">昵称：<a href="http://home.cnblogs.com/u/hlz789456123/">小鸡炖蘑菇</a><br>园龄：<a href="http://home.cnblogs.com/u/hlz789456123/" title="入园时间：2008-07-18">5年9个月</a><br>粉丝：<a href="http://home.cnblogs.com/u/hlz789456123/followers/">3</a><br>关注：<a href="http://home.cnblogs.com/u/hlz789456123/followees/">0</a><div id="p_b_follow"><a href="javascript:void(0);" onclick="cnblogs.UserManager.FollowBlogger('6347420b-63cf-dd11-9e4d-001cf0cd104b')">+加关注</a></div></div></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style=""><table id="blogCalendar" class="Cal" title="日历" cellpadding="0" cellspacing="0">
+	<tbody><tr><td colspan="7"><table class="CalTitle" cellspacing="0">
+		<tbody><tr><td class="CalNextPrev"><a href="javascript:void(0);" onclick="loadBlogCalendar('2009/02/01');return false;">&lt;</a></td><td align="center">2009年3月</td><td class="CalNextPrev" align="right"><a href="javascript:void(0);" onclick="loadBlogCalendar('2009/04/01');return false;">&gt;</a></td></tr>
+	</tbody></table></td></tr><tr><th class="CalDayHeader" abbr="日" scope="col" align="center">日</th><th class="CalDayHeader" abbr="一" scope="col" align="center">一</th><th class="CalDayHeader" abbr="二" scope="col" align="center">二</th><th class="CalDayHeader" abbr="三" scope="col" align="center">三</th><th class="CalDayHeader" abbr="四" scope="col" align="center">四</th><th class="CalDayHeader" abbr="五" scope="col" align="center">五</th><th class="CalDayHeader" abbr="六" scope="col" align="center">六</th></tr><tr><td class="CalOtherMonthDay" align="center">22</td><td class="CalOtherMonthDay" align="center">23</td><td class="CalOtherMonthDay" align="center">24</td><td class="CalOtherMonthDay" align="center">25</td><td class="CalOtherMonthDay" align="center">26</td><td class="CalOtherMonthDay" align="center">27</td><td class="CalOtherMonthDay" align="center">28</td></tr><tr><td class="CalWeekendDay" align="center">1</td><td align="center">2</td><td align="center">3</td><td align="center">4</td><td align="center">5</td><td align="center">6</td><td class="CalWeekendDay" align="center"><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/07.html"><u>7</u></a></td></tr><tr><td class="CalWeekendDay" align="center">8</td><td align="center">9</td><td align="center">10</td><td align="center">11</td><td align="center">12</td><td align="center">13</td><td class="CalWeekendDay" align="center">14</td></tr><tr><td class="CalWeekendDay" align="center">15</td><td align="center">16</td><td align="center">17</td><td align="center">18</td><td align="center"><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19.html"><u>19</u></a></td><td align="center">20</td><td class="CalWeekendDay" align="center"><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/21.html"><u>21</u></a></td></tr><tr><td class="CalWeekendDay" align="center">22</td><td align="center">23</td><td align="center">24</td><td align="center">25</td><td align="center">26</td><td align="center">27</td><td class="CalWeekendDay" align="center">28</td></tr><tr><td class="CalWeekendDay" align="center">29</td><td align="center">30</td><td align="center">31</td><td class="CalOtherMonthDay" align="center">1</td><td class="CalOtherMonthDay" align="center">2</td><td class="CalOtherMonthDay" align="center">3</td><td class="CalOtherMonthDay" align="center">4</td></tr>
+</tbody></table></div><script type="text/javascript">loadBlogDefaultCalendar();</script></div>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn">
+
+<div class="mySearch">
+<h3 class="catListTitle">搜索</h3>
+<div id="widget_my_zzk" class="div_my_zzk"><input id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk" type="text">&nbsp;<input onclick="zzk_go()" value="找找看" id="btnZzk" class="btn_my_zzk" type="button"></div>
+<div id="widget_my_google" class="div_my_zzk"><input name="google_q" id="google_q" onkeydown="return google_go_enter(event)" class="input_my_zzk" type="text">&nbsp;<input onclick="google_go()" value="谷歌搜索" class="btn_my_zzk" type="button"></div>
+</div>
+
+
+<div class="catListLink">
+<h3 class="catListTitle">常用链接</h3>
+<ul>
+
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_0" href="http://www.cnblogs.com/hlz789456123/p/">我的随笔</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_1" href="http://www.cnblogs.com/hlz789456123/MyComments.html">我的评论</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_2" title="我发表过评论的随笔" href="http://www.cnblogs.com/hlz789456123/OtherPosts.html">我的参与</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_3" href="http://www.cnblogs.com/hlz789456123/RecentComments.html">最新评论</a></li>
+	
+		<li><a id="ctl01_rptMainLinks_lnkLinkItem_4" href="http://www.cnblogs.com/hlz789456123/tag/">我的标签</a></li>
+	
+<li><a id="itemListLink" onclick="this.blur();WarpClass('itemListLink', 'itemListLin_con');return false;" href="#">更多链接</a></li>
+</ul>
+<div id="itemListLin_con" style="display:none;">
+<ul>
+
+</ul>
+</div>
+</div>
+<div class="catListPostArchive">
+<h3 class="catListTitle">随笔档案</h3>
+
+<ul>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_0" href="http://www.cnblogs.com/hlz789456123/archive/2009/07.html">2009年7月 (1)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_1" href="http://www.cnblogs.com/hlz789456123/archive/2009/05.html">2009年5月 (2)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_2" href="http://www.cnblogs.com/hlz789456123/archive/2009/04.html">2009年4月 (3)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_3" href="http://www.cnblogs.com/hlz789456123/archive/2009/03.html">2009年3月 (5)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_4" href="http://www.cnblogs.com/hlz789456123/archive/2009/02.html">2009年2月 (2)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_5" href="http://www.cnblogs.com/hlz789456123/archive/2009/01.html">2009年1月 (3)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_6" href="http://www.cnblogs.com/hlz789456123/archive/2008/12.html">2008年12月 (1)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_7" href="http://www.cnblogs.com/hlz789456123/archive/2008/10.html">2008年10月 (3)</a> </li>
+
+<li><a id="ctl03_CatList_LinkList_0_Link_8" href="http://www.cnblogs.com/hlz789456123/archive/2008/08.html">2008年8月 (6)</a> </li>
+
+</ul>
+
+</div>
+
+
+<div class="catListComment">
+<h3 class="catListTitle">最新评论<a id="_2a60d4e_RSSHyperlink1" title="RSS订阅最最新评论" href="http://www.cnblogs.com/hlz789456123/CommentsRSS.aspx"><img title="RSS订阅最最新评论" src="vim%E4%BD%BF%E7%94%A8%E5%A4%A7%E5%85%A8%5B%E8%BD%AC%5D%20-%20%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/xml.gif" alt=""></a></h3>
+
+	<div id="RecentCommentsBlock"><ul>
+    <li class="recent_comment_title"><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417193.html#2682109">1. Re:vim使用大全[转]</a></li>
+    <li class="recent_comment_body">一个很不错讲解分屏的
+http://coolshell.cn/articles/1679.html</li>
+    <li class="recent_comment_author">--rambo1</li>
+</ul>
+</div>
+</div>
+
+<div class="catListView">
+<h3 class="catListTitle">阅读排行榜</h3>
+	<div id="TopViewPostsBlock"><ul><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417193.html">1. vim使用大全[转](42357)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/02/18/1392972.html">2. CSS 单行溢出文本显示省略号...的方法（兼容IE FF）（转）(8738)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2008/08/11/1265426.html">3. 如何去除横向滚动条(4273)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/01/13/1375188.html">4. mysql中使date字段使用默认值(即当前时间)自动添加(1935)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/07/1405569.html">5. SVN配置与使用[转](1540)</a></li></ul></div>
+</div>
+
+<div class="catListFeedback">
+<h3 class="catListTitle">评论排行榜</h3>
+	<div id="TopFeedbackPostsBlock"><ul><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417193.html">1. vim使用大全[转](19)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2008/08/11/1265426.html">2. 如何去除横向滚动条(5)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/02/18/1392972.html">3. CSS 单行溢出文本显示省略号...的方法（兼容IE FF）（转）(5)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2008/08/30/1280129.html">4. IE8不兼容你的网页 怎么办? - 简单开启兼容模式(4)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417171.html">5. Windows中，在Vim标签页中打开文件[转](3)</a></li></ul></div>
+</div>
+
+<h3 class="catListTitle">推荐排行榜</h3>
+<div class="RecentComment">
+	<div id="TopDiggPostsBlock"><ul><li><a href="http://www.cnblogs.com/hlz789456123/archive/2009/03/19/1417193.html">1. vim使用大全[转](4)</a></li><li><a href="http://www.cnblogs.com/hlz789456123/archive/2008/08/11/1265426.html">2. 如何去除横向滚动条(1)</a></li></ul></div>
+</div></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		
+<!--done-->
+Copyright ©2014 小鸡炖蘑菇
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+<iframe style="display: none; width: 0px; height: 0px;" name="google_osd_static_frame" id="google_osd_static_frame_7769770728489"></iframe></body></html>

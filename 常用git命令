@@ -1,4 +1,7 @@
-一般的工作步骤：第一下载远端的文件，或者叫github上的文件，
+一般的工作步骤：
+git remote add origin address #先做一个重命名工作，以后就可以直接用origin了。这个命令只用一次，就可以，不必每次都用，因为你的项目的git文件名是不会变动的！
+
+第一下载远端的文件，或者叫github上的文件，
 就是与远端，github上的文件同步。
 这里要用到的命令有：
 git pull origin master
@@ -14,9 +17,14 @@ git merge origin/master
 git add ./
 git add --all ./ #被删除的文件也会被记录。
 第四步，提交到远程仓库。
-git remote add origin address
 git push origin master
 
 有用的git命令
 git status 无法正常现实中文的 git config --global core.quotepath false 把core.quotepath设置为false，就不会对0x80以上的字符进行quote
+
+
+git remote -v #详细显示所有的远程仓库的简称，和它的远程git文件的详细地址。
+git remote #只显示所有的远程仓库的简称，这个简称是你自己创建的。
+git remote rename name newname #重命名远程仓库的简称。
+git remote rm name #删除远程仓库的简称。
 
