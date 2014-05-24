@@ -1,3 +1,4 @@
+/*  三整数排序：输入三个整数，从小到大排序后输出。 */
 #include<stdio.h>
 
 int
@@ -6,8 +7,10 @@ main ()
 
   int a, b, c;
 
+  printf("请输入三个整数（我们将为它们排序）："); 
   scanf ("%d%d%d", &a, &b, &c);
 
+  printf("排序后的三个整数是：");
   if (a <= b && b <= c)
     printf ("%d %d %d\n", a, b, c);
 
