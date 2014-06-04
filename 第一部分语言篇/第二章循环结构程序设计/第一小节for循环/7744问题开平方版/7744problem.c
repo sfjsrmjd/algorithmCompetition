@@ -7,7 +7,15 @@ int main(){
     for(b = 0; b <= 9; b++) {
       n = a*1100 + b*11;
       m = sqrt(n);
+      //这里在判断m是不是整数，但是我觉的这个方法不符合纯数学要求!
       if(floor(m+0.5) == m) printf("%d\n", n);
     }
+  for(a = 1; a <= 9; a++)
+    for(b = 0; b <= 9; b++) {
+      n = a*1100 + b*11;
+      m = sqrt(n);
+      if(floor(m) == m) printf("%d\n", n);
+    }
+
   return 0;
 }

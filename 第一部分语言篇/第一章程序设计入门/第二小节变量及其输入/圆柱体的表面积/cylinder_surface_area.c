@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<math.h>
 int
 main (void)
@@ -21,5 +22,14 @@ main (void)
   printf("由M_PI给出的圆周率是：%lf\n",M_PI);
   printf("由4.0*atan(1.0)给出的圆周率是：%lf\n",pi);
   //测试结果是两者给出的圆周率是相同的！
+/*
+
+  我只是做一个测试：
+  测试结果是：system函数确实是让c语言执行命令行的bash命令的
+  int system(const char * command) == /bin/sh -c command
+  == execute a shell command!
+  就说明了这一点！
+  */
+  system("ls");
   return 0;
 }
