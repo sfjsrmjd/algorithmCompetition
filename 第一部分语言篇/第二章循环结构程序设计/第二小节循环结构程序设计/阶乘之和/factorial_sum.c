@@ -1,3 +1,4 @@
+/* 当n=100时，输出的结果是负数，所以乘法溢出  */
 #include<stdio.h>
 int main(){
   int i, j, n, S = 0;
