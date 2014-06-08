@@ -3,7 +3,6 @@ int
 main ()
 {
   int x, n = 0, min, max, s = 0;
-  printf ("min=%d max=%d\n", min, max);
   if (scanf ("%d", &x) == 1)
     {
       max = min = x;

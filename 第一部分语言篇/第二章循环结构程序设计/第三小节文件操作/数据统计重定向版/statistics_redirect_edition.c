@@ -1,3 +1,4 @@
+#define LOCAL //如果比赛要求读写标准输入输出，则需要在提交之前删除这一句！
 #include<stdio.h>
 #define INF 1000000000
 int main(){

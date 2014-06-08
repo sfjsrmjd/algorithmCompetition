@@ -1,4 +1,5 @@
-#define LOCAL
+/* 编译时使用-DLOCAL，如果想从文件得到输入，
+ * 如果想从键盘得到输入，那么就在编译时不要加这个选项 */
 #include<stdio.h>
 #define INF 1000000000
 int main(){
